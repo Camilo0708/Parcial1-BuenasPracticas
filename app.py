@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Configura la conexión a la base de datos Access
 db_connection = pyodbc.connect(r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};'
-                               r'DBQ=C:\Users\ASUS\Documents\GitHub\Parcial1\TallerDB.accdb;')
+                               r'DBQ=C:\Users\Camilo\Documents\Parcial01\TallerDB.accdb;')
 
 # Define una ruta para la página de inicio
 @app.route('/')
